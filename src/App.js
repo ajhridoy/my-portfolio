@@ -1,9 +1,24 @@
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
+import Home from './Components/Home/Home';
+import Main from './Layouts/Main';
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Main></Main>,
+      children: [
+        {
+          path: '/',
+          element: <Home></Home>
+        }
+      ]
+    }
+  ])
   return (
-    <div className="text-center">
-      <h2>Hello</h2>
+    <div className="">
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
