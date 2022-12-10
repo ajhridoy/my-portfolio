@@ -19,7 +19,7 @@ const Banner = () => {
             delaySpeed={1500}
           />
         </span></h1>
-            <p className='md:text-lg font-mono mt-3 text-amber-500'>A front-end focused developer Who has deep knowledge about Mern Stack Development. I have worked on many projects using JavaScript, React.JS, Node.JS and MongoDB.</p>
+            <p className='md:text-lg font-mono mt-3 text-orange-500'>A front-end focused developer Who has deep knowledge about Mern Stack Development. I have worked on many projects using JavaScript, React.JS, Node.JS and MongoDB.</p>
             <a href='https://drive.google.com/file/d/1Q0MRV1z9hRgHZnW-7hrpdk7nY92MUaFU/view?usp=share_link' target='_blank' className='px-8 py-3 font-semibold w-1/2 mt-6 rounded-full bg-yellow-400 hover:bg-yellow-600 text-black text-center mx-auto'>See My Resume</a>
 		</div>
 		<div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">

@@ -11,7 +11,7 @@ const Header = () => {
             <div>
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <Link to='/'>
-                        <h2 className="text-2xl font-bold flex flex-col md:flex-row items-center"><span className='w-16'><img src={myImage} alt="" /></span><span className='ml-2 text-yellow-400 hover:text-green-500 uppercase'>Abu Zubayer</span></h2>
+                        <h2 className="text-2xl font-bold flex flex-col md:flex-row items-center"><span className='w-16'><img src={myImage} alt="" /></span><span className='ml-2 text-yellow-400 hover:text-cyan-400 uppercase'>Abu Zubayer</span></h2>
                     </Link>
                     <div className="md:hidden">
                         <button
@@ -59,11 +59,11 @@ const Header = () => {
                     }`}
                 >
                     <ul className="items-center justify-center text-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                    <Link to='/'><li className="text-yellow-300 hover:text-green-500  rounded-lg p-3 font-bold">Home</li></Link>
+                    <Link to='/'><li className="text-yellow-300 hover:text-cyan-400 rounded-lg p-3 font-bold">Home</li></Link>
 
-                    <Link to='/dashboard'><li className="text-yellow-300 hover:text-green-500  rounded-lg p-3 font-bold">About</li></Link>
+                    <Link to='/dashboard'><li className="text-yellow-300 hover:text-cyan-400  rounded-lg p-3 font-bold">About</li></Link>
                         
-                    <Link to='/blog'><li className="text-yellow-300 hover:text-green-500 rounded-lg p-3 font-bold">Contact me</li></Link>         
+                    <Link to='/blog'><li className="text-yellow-300 hover:text-cyan-400 rounded-lg p-3 font-bold">Contact me</li></Link>         
                     </ul>
                 </div>
             </div>
