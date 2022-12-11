@@ -61,9 +61,10 @@ const Header = () => {
                     <ul className="items-center justify-center text-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                     <Link to='/'><li className="text-yellow-300 hover:text-cyan-400 rounded-lg p-3 font-bold">Home</li></Link>
 
-                    <Link to='/dashboard'><li className="text-yellow-300 hover:text-cyan-400  rounded-lg p-3 font-bold">About</li></Link>
+                    <Link to='/about'><li className="text-yellow-300 hover:text-cyan-400  rounded-lg p-3 font-bold">About me</li></Link>
                         
-                    <Link to='/blog'><li className="text-yellow-300 hover:text-cyan-400 rounded-lg p-3 font-bold">Contact me</li></Link>         
+                    <Link to='/blog'><li className="text-yellow-300 hover:text-cyan-400 rounded-lg p-3 font-bold">Blog</li></Link>         
+                    <Link to='/contactme'><li className="text-yellow-300 hover:text-cyan-400 rounded-lg p-3 font-bold">Contact me</li></Link>         
                     </ul>
                 </div>
             </div>

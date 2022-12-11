@@ -18,7 +18,7 @@ const Contact = () => {
       });
   };
     return (
-        <div>
+        <div className='my-10'>
             <h2 className='text-3xl font-bold text-center my-6'>Contact Me</h2>
     <section className="py-6 dark:bg-gray-800 dark:text-gray-50 mx-6 lg:mx-12">
 	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">

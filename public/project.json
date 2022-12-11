@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "projectName": "LAPTOP-ZONE",
+        "proImage": "https://i.ibb.co/xzn3pwq/website-1.png",
+        "proDetail": "This is Full Stack web page where admin, seller and buyer have their different role..."
+    },
+    {
+        "id": 2,
+        "projectName": "PHOTO-HUB",
+        "proImage": "https://i.ibb.co/n6wDhPY/photo-1542038784456-1ea8e935640e-a3a4fc71478b5196fa57.jpg",
+        "proDetail": "A full stack website where people sell their photography services, review service and..."
+    },
+    {
+        "id": 3,
+        "projectName": "Tech-Knowledge",
+        "proImage": "https://i.ibb.co/QN5XCJT/website-3.png",
+        "proDetail": "This website based on tech courses people buy course and download course pdf..."
+    }
+]
