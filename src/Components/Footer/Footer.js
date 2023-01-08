@@ -14,12 +14,15 @@ const Footer = () => {
 		</ul>
 		<div className="flex flex-col justify-center pt-6 lg:pt-0">
 			<div className="flex justify-center space-x-4">
-				<a href="#" title="GitHub" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-yellow-400 hover:bg-cyan-400 text-black"><FaGithub></FaGithub></a>
-				<a href="#" title="Facebook" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-yellow-400 hover:bg-cyan-400 text-black"><FaFacebook></FaFacebook></a>
-				<a href="#" title="LinkedIn" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-yellow-400 hover:bg-cyan-400 text-black"><FaLinkedin></FaLinkedin></a>
-				<a href="#" title="Twitter" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-yellow-400 hover:bg-cyan-400 text-black"><FaTwitter></FaTwitter></a>
+				<a href="https://github.com/ajhridoy" target='_blank' title="GitHub" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-yellow-400 hover:bg-cyan-400 text-black"><FaGithub></FaGithub></a>
+				<a href="https://www.facebook.com/redoy.khan.102977/" target='_blank' title="Facebook" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-yellow-400 hover:bg-cyan-400 text-black"><FaFacebook></FaFacebook></a>
+				<a href="https://www.linkedin.com/in/abu-zubayer/" target='_blank' title="LinkedIn" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-yellow-400 hover:bg-cyan-400 text-black"><FaLinkedin></FaLinkedin></a>
+				<a href="https://twitter.com/sobar_hridoy" target='_blank' title="Twitter" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-yellow-400 hover:bg-cyan-400 text-black"><FaTwitter></FaTwitter></a>
 			</div>
 		</div>
+	</div>
+	<div className="flex items-center justify-center px-6 pt-12 text-md">
+		<span className="text-white mb-4">© Copyright 2022. All Rights Reserved.</span>
 	</div>
 </footer>
     );

@@ -12,7 +12,7 @@ const Project = ({project}) => {
 			<h2 className="text-3xl font-semibold tracking-wide">{projectName}</h2>
 			<p className="dark:text-gray-100">{proDetail}</p>
 		</div>
-		<Link to={`/projectDetails/${id}`}><button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-yellow-400 hover:bg-yellow-600 text-black">See More Details <span className='ml-2'><FaArrowRight></FaArrowRight></span></button></Link>
+		<Link to={`/projectDetails/${id}`}><button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-yellow-400 hover:bg-cyan-400 text-black">See More Details <span className='ml-2'><FaArrowRight></FaArrowRight></span></button></Link>
 	</div>
 </div>
     );

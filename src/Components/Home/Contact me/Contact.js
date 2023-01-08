@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { FaGithub, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Contact = () => {
     const form = useRef();
@@ -19,7 +20,7 @@ const Contact = () => {
     return (
         <div className='my-10'>
             <h2 className='text-3xl font-bold text-center my-6'>Contact Me</h2>
-    <section className="py-6 dark:bg-gray-800 dark:text-gray-50 mx-6 lg:mx-12">
+    <section className="py-6 dark:bg-gray-800 dark:text-gray-50 mx-6 lg:mx-12 rounded-lg">
 	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
 		<div className="py-6 md:py-0 md:px-6">
 			<h1 className="text-4xl font-bold">Get in touch</h1>
@@ -44,6 +45,14 @@ const Contact = () => {
 					</svg>
 					<span>ajhridoy461@gmail.com</span>
 				</p>
+				<div className="flex flex-col justify-center pt-6 lg:pt-0">
+			<div className="flex space-x-4 mt-3">
+				<a href="https://github.com/ajhridoy" target='_blank' title="GitHub" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-yellow-400 hover:bg-cyan-400 text-black"><FaGithub></FaGithub></a>
+				<a href="https://www.facebook.com/redoy.khan.102977/" target='_blank' title="Facebook" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-yellow-400 hover:bg-cyan-400 text-black"><FaFacebook></FaFacebook></a>
+				<a href="https://www.linkedin.com/in/abu-zubayer/" target='_blank' title="LinkedIn" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-yellow-400 hover:bg-cyan-400 text-black"><FaLinkedin></FaLinkedin></a>
+				<a href="https://twitter.com/sobar_hridoy" target='_blank' title="Twitter" className="flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-yellow-400 hover:bg-cyan-400 text-black"><FaTwitter></FaTwitter></a>
+			</div>
+		</div>
 			</div>
 		</div>
 		<form ref={form} onSubmit={sendEmail} className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">

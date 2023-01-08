@@ -1,0 +1,147 @@
+
+.progress {
+    background-color: black;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 2px;
+    display: flex;
+    height: 12px;
+    width: 300px;
+  }
+  
+  .progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: cyan;
+    height: 10px;
+    width: 0;
+  }
+  .progress-css {
+    animation: css 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: cyan;
+    height: 10px;
+    width: 0;
+  }
+  .progress-java {
+    animation: java 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: cyan;
+    height: 10px;
+    width: 0;
+  }
+  .progress-react {
+    animation: react 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: cyan;
+    height: 10px;
+    width: 0;
+  }
+  .progress-node {
+    animation: node 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: cyan;
+    height: 10px;
+    width: 0;
+  }
+  .progress-express {
+    animation: express 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: cyan;
+    height: 10px;
+    width: 0;
+  }
+  .progress-mongo {
+    animation: mongo 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: cyan;
+    height: 10px;
+    width: 0;
+  }
+  .progress-tail {
+    animation: tail 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: cyan;
+    height: 10px;
+    width: 0;
+  }
+  
+  .progress-boots {
+    animation: boots 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: cyan;
+    height: 10px;
+    width: 0;
+  }
+  .progress-fire {
+    animation: fire 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: cyan;
+    height: 10px;
+    width: 0;
+  }
+  .progress-redux {
+    animation: redux 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: cyan;
+    height: 10px;
+    width: 0;
+  }
+  
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes css {
+    0% { width: 0; }
+    100% { width: 85%; }
+  }
+  @keyframes java {
+    0% { width: 0; }
+    100% { width: 80%; }
+  }
+  @keyframes react {
+    0% { width: 0; }
+    100% { width: 80%; }
+  }
+  @keyframes node {
+    0% { width: 0; }
+    100% { width: 70%; }
+  }
+  @keyframes express {
+    0% { width: 0; }
+    100% { width: 70%; }
+  }
+  @keyframes mongo {
+    0% { width: 0; }
+    100% { width: 60%; }
+  }
+  @keyframes tail {
+    0% { width: 0; }
+    100% { width: 90%; }
+  }
+  @keyframes boots {
+    0% { width: 0; }
+    100% { width: 85%; }
+  }
+  @keyframes fire {
+    0% { width: 0; }
+    100% { width: 60%; }
+  }
+  @keyframes redux {
+    0% { width: 0; }
+    100% { width: 40%; }
+  }
