@@ -11,7 +11,11 @@ const Header = () => {
             <div>
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <Link to='/'>
-                        <h2 className="text-2xl font-bold flex flex-col md:flex-row items-center"><span className='w-16'><img src={myImage} alt="" /></span><span className='ml-2 text-yellow-400 hover:text-cyan-400 uppercase'>Abu Zubayer</span></h2>
+                        <h2 className="text-2xl font-bold flex flex-col md:flex-row items-center"><span className='w-16'><img src={myImage} alt="" data-aos="flip-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" /></span><span className='ml-2 text-yellow-400 hover:text-cyan-400 uppercase' data-aos="fade-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">Abu Zubayer</span></h2>
                     </Link>
                     <div className="md:hidden">
                         <button

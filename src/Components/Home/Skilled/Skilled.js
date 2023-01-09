@@ -6,6 +6,10 @@ const Skilled = () => {
     <div className="my-10 mx-12">
       <h2 className='text-3xl font-bold text-center my-6'>Skills</h2>
       <div className="bg-gray-800 p-8 rounded-lg text-white">
+      <div data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine"
+    data-aos-duration="2000">
         <div className="flex flex-row items-center">
           <h2 className="font-medium text-lg mr-3">HTML5:</h2>
           <div class="progress">
@@ -72,6 +76,7 @@ const Skilled = () => {
             <div className="progress-redux" title="40%"></div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

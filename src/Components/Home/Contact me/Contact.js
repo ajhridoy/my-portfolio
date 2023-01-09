@@ -22,7 +22,10 @@ const Contact = () => {
             <h2 className='text-3xl font-bold text-center my-6'>Contact Me</h2>
     <section className="py-6 dark:bg-gray-800 dark:text-gray-50 mx-6 lg:mx-12 rounded-lg">
 	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
-		<div className="py-6 md:py-0 md:px-6">
+		<div className="py-6 md:py-0 md:px-6" data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine"
+    data-aos-duration="1500">
 			<h1 className="text-4xl font-bold">Get in touch</h1>
 			<p className="pt-2 pb-4">Fill in the form to start a conversation</p>
 			<div className="space-y-4">
@@ -55,7 +58,10 @@ const Contact = () => {
 		</div>
 			</div>
 		</div>
-		<form ref={form} onSubmit={sendEmail} className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+		<form ref={form} onSubmit={sendEmail} className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid" data-aos="fade-left"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine"
+    data-aos-duration="2000">
 			<label className="block">
 				<span className="mb-1">Full name</span>
 				<input type="text" name="to_name" placeholder="Your Name" className="block w-full rounded-md pl-2 shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400" />
